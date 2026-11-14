@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brett's Mom — Book Time</title>
+  <meta name="description" content="Request an audience with Brett's Mom. Mom of the Year, eleven years running. Advice, casseroles, and almost no open appointments.">
+  <link rel="canonical" href="https://brettsmom.com/">
+  <meta name="theme-color" content="#161311">
+  <meta property="og:title" content="Brett's Mom — Book Time">
+  <meta property="og:description" content="The most requested mom in the tri-county area. Limited availability. Unlimited casseroles. Brett has asked us to stop.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://brettsmom.com/">
+  <meta property="og:image" content="https://brettsmom.com/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Brett's Mom. Book time. Mom of the Year, eleven years running.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Brett's Mom — Book Time">
+  <meta name="twitter:description" content="The most requested mom in the tri-county area. Limited availability. Unlimited casseroles.">
+  <meta name="twitter:image" content="https://brettsmom.com/assets/og.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <style>
+    .nav-toggle { display: none; }
+    .js .book-fallback { display: none; }
+    .js .faq-panel { display: none; }
+    .js .faq-item.is-open .faq-panel { display: block; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <noscript class="noscript">JavaScript is off, so the calendar stays closed. Nothing would have been sent either way.</noscript>
+
+  <header class="site-header" id="top" data-inert-root>
+    <a class="brand" href="#top">
+      <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true">
+        <rect width="36" height="36" rx="18" fill="#4e1c2a"/>
+        <circle cx="18" cy="18" r="13" fill="none" stroke="#e0c48a" stroke-width="1"/>
+        <circle cx="18" cy="15" r="3.4" fill="#f6f1e7"/>
+        <path d="M10.5 27c1.4-4 4-6 7.5-6s6.1 2 7.5 6" fill="#f6f1e7"/>
+      </svg>
+      <span>Brett's Mom</span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul id="nav-links" class="nav-links" data-nav-links>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">The Menu</a></li>
+        <li><a href="#stories">Testimonials</a></li>
+        <li><a href="#questions">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-light nav-cta" href="#book" data-book>
+        <span class="nav-cta-long">Book a visit</span>
+        <span class="nav-cta-short">Book</span>
+      </a>
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="nav-links">Menu</button>
+    </div>
+  </header>
+
+  <main id="content" data-inert-root>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="return-banner" id="return-banner" hidden>
+            <p id="return-copy"></p>
+            <button type="button" id="return-view">View confirmation</button>
+          </div>
+          <p class="eyebrow">Mom of the Year · eleven years running</p>
+          <h1 id="hero-title">Book time with<br><em>Brett's Mom.</em></h1>
+          <p class="dek">The most requested mom in the tri-county area. The calendar is mostly bridge club, her shows, and Aunt Linda. What remains is offered here, formally.</p>
+          <div class="hero-actions">
+            <a class="btn btn-light btn-large" href="#book" data-book>Book Time With Brett's Mom</a>
+            <a class="btn btn-ghost btn-large" href="#menu">See the menu</a>
+          </div>
+          <p class="whisper" id="next-opening" hidden></p>
+          <ul class="stats">
+            <li><strong>11</strong><span>years as Mom of the Year</span></li>
+            <li><strong>847</strong><span>households hoping for a Tuesday</span></li>
+            <li><strong>1</strong><span>person who can override Brett</span></li>
+          </ul>
+        </div>
+        <figure class="portrait">
+          <svg class="seal" viewBox="0 0 440 440" role="img" aria-label="Cameo placeholder. No photograph.">
+            <circle cx="220" cy="220" r="208" fill="#4a1a28"/>
+            <circle cx="220" cy="220" r="208" fill="none" stroke="#e0c48a" stroke-width="3"/>
+            <circle cx="220" cy="220" r="190" fill="none" stroke="#e0c48a" stroke-width="1"/>
+            <circle cx="220" cy="220" r="180" fill="none" stroke="#e0c48a" stroke-width="0.6" opacity="0.75"/>
+            <g stroke="#e0c48a" stroke-width="2" stroke-linecap="round">
+              <path d="M220 18 v14"/>
+              <path d="M220 408 v14"/>
+              <path d="M18 220 h14"/>
+              <path d="M408 220 h14"/>
+            </g>
+            <path id="sealArc" d="M72,168 A160,160 0 0 1 368,168" fill="none"/>
+            <text fill="#e0c48a" font-family="Georgia, 'Iowan Old Style', serif" font-size="15" letter-spacing="3.5">
+              <textPath href="#sealArc" startOffset="50%" text-anchor="middle">BRETT'S MOM</textPath>
+            </text>
+            <g fill="#f4efe6">
+              <ellipse cx="220" cy="196" rx="54" ry="62"/>
+              <path d="M198 246h44c2 18-8 28-22 28s-24-10-22-28z"/>
+              <path d="M124 338c22-78 52-100 96-100s74 22 96 100H124z"/>
+            </g>
+            <path d="M174 176c16-34 76-34 92 0" fill="none" stroke="#e0c48a" stroke-width="2" stroke-linecap="round"/>
+            <g fill="none" stroke="#e0c48a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M184 318h72"/>
+              <path d="M190 318c3 18 16 28 30 28s27-10 30-28"/>
+              <path d="M198 312c8-14 36-14 44 0"/>
+              <circle cx="220" cy="302" r="3" fill="#e0c48a" stroke="none"/>
+              <path d="M208 296c3-8 8-12 12-12"/>
+              <path d="M232 296c-3-8-8-12-12-12"/>
+            </g>
+          </svg>
+          <figcaption>
+            <span>Photo withheld for security reasons</span>
+            <strong>Too iconic to photograph</strong>
+            <span class="cat-no">Cat. No. 001 · Kitchen table, ongoing</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <ul class="honors" aria-label="Distinctions">
+      <li>Mom of the Year, 11 years running</li>
+      <li>Lasagna, unsurpassed</li>
+      <li>Advice, correct and unsolicited</li>
+      <li>Openings, rare</li>
+    </ul>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">01 — The record</p>
+          <h2 id="about-title">She does not have a publicist. She has a kitchen table.</h2>
+        </header>
+        <div class="about-grid">
+          <div class="prose">
+            <p>Brett's Mom keeps no office and no waiting room. Visits happen at the kitchen table, which has heard more career changes than most departments of human resources.</p>
+            <p>She became the most requested mom in the tri-county area the ordinary way: by feeding people, remembering their dogs' names, and offering advice nobody asked for and everybody needed. The dining chairs ran out sometime during the Mom of the Year streak. She is in year eleven. The trophy is a casserole dish she will not lend out.</p>
+            <p>Brett would like it known that he loves his mom, and that the science-fair story is, in his words, “context-dependent.” This page notes the objection and has already set an extra place.</p>
+          </div>
+          <aside class="record">
+            <h3>Career highlights</h3>
+            <ol class="highlights">
+              <li><span>01</span><p>Mom of the Year, eleven years running. The committee is small and the vote is unanimous.</p></li>
+              <li><span>02</span><p>Tuesday lasagna, a standing engagement. The record is perfect. The record is also full.</p></li>
+              <li><span>03</span><p>Keeper of the spare key for four households and one shed.</p></li>
+              <li><span>04</span><p>Longest call with Aunt Linda: four hours and seventeen minutes, plus a follow-up.</p></li>
+              <li><span>05</span><p>Successfully convinced Brett to own a coat.</p></li>
+              <li><span>06</span><p>Informal counsel to the block, the book club, and anyone in the checkout line who makes eye contact.</p></li>
+            </ol>
+          </aside>
+        </div>
+        <div class="facts">
+          <article class="fact"><span>On file</span><p>She can tell, from the driveway, that you skipped lunch.</p></article>
+          <article class="fact"><span>On file</span><p>The family Tupperware has been in circulation since 1998. The ledger is in her head.</p></article>
+          <article class="fact"><span>On file</span><p>She has never burned a lasagna. She says the oven knows better.</p></article>
+          <article class="fact"><span>On file</span><p>Brett's childhood is indexed by year, teacher, and science-fair ribbon.</p></article>
+          <article class="fact"><span>On file</span><p>She names other people's plants. The plants have been doing better.</p></article>
+          <article class="fact"><span>On file</span><p>If she says “just a little something,” clear the front seat of the car.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <header class="section-head center-head">
+          <p class="eyebrow">02 — The menu</p>
+          <h2 id="menu-title">What she is offering.</h2>
+        </header>
+        <div class="menu-card">
+          <p class="menu-kicker">The standing menu</p>
+          <p class="menu-note">Prices are firm. Money will be refused. Food will not.</p>
+          <article class="dish">
+            <div class="menu-top">
+              <h3>Advice Session</h3>
+              <span class="leader" aria-hidden="true"></span>
+              <p class="price">Priceless</p>
+            </div>
+            <p class="duration">45 minutes · at the kitchen table</p>
+            <p class="dish-copy">She listens, then tells you the thing you already knew, which will somehow be new. Tea is not optional. Neither is sitting down.</p>
+            <p><a class="text-link" href="#book" data-book data-service="advice">Request this</a></p>
+          </article>
+          <article class="dish">
+            <div class="menu-top">
+              <h3>Casserole Consultation</h3>
+              <span class="leader" aria-hidden="true"></span>
+              <p class="price">One returned Tupperware</p>
+            </div>
+            <p class="duration">1 hour · bring the dish you've been meaning to return</p>
+            <p class="dish-copy">A guided look at your oven, your guests, and the decisions that led you here. Lasagna will be involved.</p>
+            <p><a class="text-link" href="#book" data-book data-service="casserole">Request this</a></p>
+          </article>
+          <article class="dish">
+            <div class="menu-top">
+              <h3>Ask About Brett's Childhood</h3>
+              <span class="leader" aria-hidden="true"></span>
+              <p class="price">Complimentary</p>
+            </div>
+            <p class="duration">30 minutes · Brett pays, emotionally</p>
+            <p class="dish-copy">Stories with dates. At least one he has formally requested stay in the family. He has been informed this service exists.</p>
+            <p><a class="text-link" href="#book" data-book data-service="childhood">Request this</a></p>
+          </article>
+          <article class="dish">
+            <div class="menu-top">
+              <h3>Emergency Pep Talk</h3>
+              <span class="leader" aria-hidden="true"></span>
+              <p class="price">On the house</p>
+            </div>
+            <p class="duration">15 minutes · available when you actually need it</p>
+            <p class="dish-copy">For the moment you need someone certain you can handle it. She is certain. Eating something afterward is strongly implied.</p>
+            <p><a class="text-link" href="#book" data-book data-service="peptalk">Request this</a></p>
+          </article>
+          <article class="dish">
+            <div class="menu-top">
+              <h3>Lasagna Intensive</h3>
+              <span class="leader" aria-hidden="true"></span>
+              <p class="price">By referral</p>
+            </div>
+            <p class="duration">90 minutes · rare on the calendar</p>
+            <p class="dish-copy">The long session. Sauce, assembly, and several life decisions, none of them rushed. If you see an opening, take it and bring a way to carry leftovers.</p>
+            <p><a class="text-link" href="#book" data-book data-service="lasagna">Request this</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stories" aria-labelledby="stories-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">03 — Testimonials</p>
+          <h2 id="stories-title">People who have been fed, advised, or both.</h2>
+        </header>
+        <div class="quotes">
+          <figure class="quote featured">
+            <blockquote>I am an adult with a job and my own apartment. She told the mailman about the sixth-grade science fair. The lasagna she sent home was, unfortunately, perfect.</blockquote>
+            <figcaption><b>Brett</b> · mildly embarrassed, officially</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>I borrowed a cup of sugar in 2009. I left with a plan, a container of soup, and instructions to call my mother. I still have the container. She still asks about it.</blockquote>
+            <figcaption><b>Denise</b> · next door</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>She knows when I'm running late before I do. Last winter she met me at the porch with coffee. I have never been more on time.</blockquote>
+            <figcaption><b>Carl</b> · the mailman</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>I was there for paper towels. She was there for the good cheese. Forty minutes later I had updated my resume. Worth full price.</blockquote>
+            <figcaption><b>A guy at Costco</b></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>The emergency pep talk took nine minutes. I stood up straighter, ate a square of lasagna, and finished the thing I had been avoiding since March.</blockquote>
+            <figcaption><b>Priya</b> · from Brett's office</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>We moved our start to 1:15 because she does not rush a lunch plate. Attendance has never been higher.</blockquote>
+            <figcaption><b>The Tuesday bridge club</b></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>We talk every day. Some days we talk twice. I take no notes. She remembers everything, including what I meant to say.</blockquote>
+            <figcaption><b>Aunt Linda</b></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="questions" aria-labelledby="faq-title">
+      <div class="wrap narrow">
+        <header class="section-head">
+          <p class="eyebrow">04 — FAQ</p>
+          <h2 id="faq-title">Questions, answered plainly.</h2>
+        </header>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-1" id="faq-q1">Is this a real booking?</button></h3>
+            <div class="faq-panel" id="faq-1" role="region" aria-labelledby="faq-q1">
+              <p>It behaves like one. You choose a service, a day, and a time, then receive a confirmation and a calendar file. Nothing is emailed. Nothing is stored on a server. Your email is checked so the form feels finished, then forgotten. If you leave a name, this browser remembers the visit. Brett's Mom remembers either way.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-2" id="faq-q2">Why are so many times booked?</button></h3>
+            <div class="faq-panel" id="faq-2" role="region" aria-labelledby="faq-q2">
+              <p>Bridge club. Her shows. Aunt Linda. A neighbor who only needed a minute. The open slots are the openings. Scarcity is not a strategy. It is Tuesday.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-3" id="faq-q3">Can I just show up?</button></h3>
+            <div class="faq-panel" id="faq-3" role="region" aria-labelledby="faq-q3">
+              <p>People do. She will act as if she had been hoping someone would. The calendar exists so the lasagna can be timed.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-4" id="faq-q4">What does it cost?</button></h3>
+            <div class="faq-panel" id="faq-4" role="region" aria-labelledby="faq-q4">
+              <p>Priceless, complimentary, or one returned piece of Tupperware, depending on the service. She will refuse actual money and then send you home with food that exceeds it.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-5" id="faq-q5">Does Brett know about this?</button></h3>
+            <div class="faq-panel" id="faq-5" role="region" aria-labelledby="faq-q5">
+              <p>He does now. A confirmed visit notes that he has been notified. He is not happy. He will still eat.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-6" id="faq-q6">What should I bring?</button></h3>
+            <div class="faq-panel" id="faq-6" role="region" aria-labelledby="faq-q6">
+              <p>A story, an appetite, and any Tupperware you have been meaning to return. Please do not bring a camera. The portrait is withheld for security reasons, and also because it is too iconic to photograph.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-7" id="faq-q7">What if I need to cancel?</button></h3>
+            <div class="faq-panel" id="faq-7" role="region" aria-labelledby="faq-q7">
+              <p>Life happens. She will say “don't be silly,” and she will mean it. Cancel anyway, so the opening can go to someone whose casserole situation is more urgent. There is no office to call. Closing the calendar file is enough. She already knows.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <div class="wrap narrow">
+        <p class="eyebrow">Availability</p>
+        <h2 id="closing-title">She is not taking walk&#8209;ins. She is also absolutely taking walk&#8209;ins.</h2>
+        <p class="dek">The calendar is the polite route. It gives the lasagna a head start.</p>
+        <a class="btn btn-light btn-large" href="#book" data-book>Book Time With Brett's Mom</a>
+      </div>
+    </section>
+
+    <section class="section book-fallback" id="book">
+      <div class="wrap narrow">
+        <h2>The calendar opens in this browser.</h2>
+        <p class="dek">Turn on JavaScript to request a visit. No account, no message sent, no server. She would have preferred you simply knock.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-inert-root>
+    <div class="wrap footer-grid">
+      <p class="disclaimer">This is a parody site made with love. Not affiliated with any actual mom.</p>
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">The Menu</a></li>
+        <li><a href="#stories">Testimonials</a></li>
+        <li><a href="#questions">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="wrap">
+      <p class="footer-note">brettsmom.com · Bookings stay on this device. Brett has our apologies, and also the good Tupperware.</p>
+    </div>
+  </footer>
+
+  <div class="booking" id="booking" hidden>
+    <div class="booking-dialog" role="dialog" aria-modal="true" aria-labelledby="booking-title">
+      <div class="booking-top">
+        <p class="booking-brand">Brett's Mom</p>
+        <button type="button" class="btn btn-quiet" data-close>Close</button>
+      </div>
+      <div class="booking-layout">
+        <aside id="booking-summary" class="booking-summary"></aside>
+        <div id="booking-root" class="booking-main"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/site.js"></script>
+  <script type="module" src="js/booking.js"></script>
+</body>
+</html>
